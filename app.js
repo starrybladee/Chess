@@ -2,6 +2,11 @@
 const tg = window.Telegram.WebApp;
 tg.expand();
 
+const pieceImages = {
+  'wk': 'https://upload.wikimedia.org/wikipedia/commons/4/42/Chess_klt45.svg',
+  'wq': 'https://upload.wikimedia.org/wikipedia/commons/1/15/Chess_qlt45.svg',
+  // ... добавьте аналогично для всех фигур
+};
 // Шахматные константы
 const PieceType = {
     PAWN: 'p',
